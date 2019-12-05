@@ -1,3 +1,25 @@
+# ImageBoard
+
+## What this project is about:
+
+This is my own attempt at the week#6 with react, redux and rest API.
+
+ImageBoard project is full stack project where I have stored few image-urls with image-names in database and display the images with image-names on web-page.
+
+## Goals for this project:
+
+To practice for myself
+To become more comfortable with frontend and backend programming.
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
