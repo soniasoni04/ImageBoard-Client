@@ -8,19 +8,23 @@ ImageBoard project is full stack project where I have stored few image-urls with
 
 ## Goals for this project:
 
-To practice for myself
-To become more comfortable with frontend and backend programming.
+- To practice for myself
+- To become more comfortable with frontend and backend programming.
 
+## Technologies used: 
 
+- react
+- redux
+- redux-thunk
+- superagent
 
+## Requirements:
 
+Display the images with names.
 
+## Create React App
 
-
-
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was scaffolded using the create-react-app with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
