@@ -20,7 +20,9 @@ ImageBoard project is full stack project where I have stored few image-urls with
 
 ## Requirements:
 
-Display the images with names.
+- Display the images with names.
+- You can add new images by image-urls and image-names thru "submit your image" form.
+
 
 ## Create React App
 
