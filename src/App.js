@@ -5,7 +5,7 @@ import CreateFormContainer from './components/CreateFormContainer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import Boot from './components/Boot';
+import Boot from '../../../other/Boot';
 
 
 

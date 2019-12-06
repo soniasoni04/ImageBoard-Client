@@ -1,7 +1,6 @@
 import React from 'react'
 import { getImages } from '../actions'
 import { connect } from 'react-redux'
-//import List from './List'
 
 class ListContainer extends React.Component {
     componentDidMount() {
@@ -14,12 +13,11 @@ class ListContainer extends React.Component {
       return <div>
                 <ul>{
                     images.map(image => {
-
                       return <div>
-                      <li> 
-                      {image.title} <img key={image.id} src={image.url} width='250' height='200'/>
-                      </li> 
-                      <br></br>
+                          <li> 
+                            {image.title} <img key={image.id} src={image.url} width='250' height='200'/>
+                          </li> 
+                          <br></br>
                       </div>
                     })
                     }
@@ -32,7 +30,5 @@ class ListContainer extends React.Component {
     function mapStateToProps (state) {
     return { images: state.images }
   }
-  
-  
-  
+
   export default connect(mapStateToProps, { getImages })(ListContainer)
