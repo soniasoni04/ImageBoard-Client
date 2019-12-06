@@ -13,9 +13,9 @@ class ListContainer extends React.Component {
       return <div>
                 <ul>{
                     images.map(image => {
-                      return <div>
-                          <li> 
-                            {image.title} <img key={image.id} src={image.url} width='250' height='200'/>
+                      return <div key={image.id}>
+                          <li > 
+                            {image.title} <img src={image.url} width='250' height='200'/>
                           </li> 
                           <br></br>
                       </div>

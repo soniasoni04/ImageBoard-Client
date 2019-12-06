@@ -1,39 +1,34 @@
 import React,{Component} from 'react'
 import { connect } from 'react-redux'
 import { createImage } from '../actions'
-//import CreateForm from './CreateForm'
 
 class CreateFormContainer extends Component {
     state={
-        url : " ",
-        title: " "
+        url : '',
+        title: ''
     }
 
     onChange=(e)=>{
-        console.log("onchange :", e.target.value)
+        //console.log("onchange :", e.target.value)
         this.setState({
             [e.target.name] : e.target.value,
-            
         })
-
-        //console.log("now value set in the state: ", this.state.name)
     }
-    
-    
+
     onSubmit=(e)=>{
-        e.preventDefault();
-        
-        //console.log(" on submit , this.state: ", this.state)
-
-        this.props.createImage(this.state)
-
+        e.preventDefault();   
+        if(this.state.url){
+            console.log("updated value of the url: ", this.state.url)
+            this.props.createImage(this.state)
+        }
+        else{
+            console.log("you have not entered the url of the image")
+        }
         this.setState({
-            url : " ",
-            title: " "
+            url : '',
+            title: ''
         })
     }
-
-
 
     render(){
 

@@ -10,7 +10,7 @@ class App extends Component {
 
     return (
       <div>
-        <h1>Imageboard </h1>
+        <h1><u>Imageboard</u></h1><br/>
         <ListContainer />
         <CreateFormContainer />
       </div>

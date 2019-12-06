@@ -23,3 +23,9 @@ body {
 .App-link {
   color: #09d3ac;
 }
+
+h1{
+  margin: auto;
+  padding-left: 40px;
+  background-color: rgb(159, 231, 191);
+}
