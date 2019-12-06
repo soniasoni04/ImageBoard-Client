@@ -2,6 +2,12 @@ import React , {Component} from 'react';
 import './App.css';
 import ListContainer from './components/ListContainer';
 import CreateFormContainer from './components/CreateFormContainer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import Boot from './components/Boot';
+
+
 
 
 class App extends Component {
@@ -10,7 +16,7 @@ class App extends Component {
 
     return (
       <div>
-        <h1>hello </h1>
+        <h1>Imageboard </h1>
         <ListContainer />
         <CreateFormContainer />
       </div>
@@ -21,3 +27,8 @@ class App extends Component {
 
 
 export default App;
+
+
+//<ListContainer />
+//<CreateFormContainer />
+// <Boot />

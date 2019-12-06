@@ -11,13 +11,17 @@ class ListContainer extends React.Component {
     render() {
         console.log("images: " , this.props.images)
         const {images} = this.props
-        //console.log("images by deconstructor :", images)
-        
-
       return <div>
-                <h1>hello from listContainer </h1>
                 <ul>{
-                    images.map(image => <li key={image.id}>{image.url}</li>)
+                    images.map(image => {
+
+                      return <div>
+                      <li> 
+                      {image.title} <img key={image.id} src={image.url} width='250' height='200'/>
+                      </li> 
+                      <br></br>
+                      </div>
+                    })
                     }
                 </ul>
       
@@ -25,7 +29,7 @@ class ListContainer extends React.Component {
     }
   }
   
-  function mapStateToProps (state) {
+    function mapStateToProps (state) {
     return { images: state.images }
   }
   

@@ -4,5 +4,5 @@ import createImage from './createImage'
 
 export default combineReducers({
   images,
-  createImage
+  
 })
