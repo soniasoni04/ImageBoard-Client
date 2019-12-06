@@ -4,12 +4,6 @@ import ListContainer from './components/ListContainer';
 import CreateFormContainer from './components/CreateFormContainer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-import Boot from '../../../other/Boot';
-
-
-
-
 class App extends Component {
 
   render(){
@@ -22,13 +16,6 @@ class App extends Component {
       </div>
     );
   }
-  
 }
 
-
 export default App;
-
-
-//<ListContainer />
-//<CreateFormContainer />
-// <Boot />
